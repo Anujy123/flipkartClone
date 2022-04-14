@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice for transform property</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+
+        }
+        .container{
+           width: 100vw;
+           height: 1000px;
+           background-color: aqua;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+         
+
+        }
+        img{
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+            animation: rotaing 1S ease-in  infinite;
+           
+        }
+          
+        
+      
+       
+         @keyframes rotaing  {
+             0%{
+               transform: translateX(0PX);
+             }
+             25%{
+                transform: translateX(100PX); 
+             }
+            50%{
+                transform: translateY(100PX); 
+             }
+             75%{
+                transform: translateX(100PX); 
+             }
+            }
+             100%{
+                transform: translateY(100PX); 
+             }
+         }  
+
+
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+          <img src="card1.jpg" alt="">
+        
+    </div>
+    
+</body>
+</html>
