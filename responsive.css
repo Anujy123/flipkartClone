@@ -1,89 +1,316 @@
-@media screen and (max-width:1200px){
-    body{
-        /* background-color: blue; */
+@media screen and (min-width:900px) and (max-width : 1200px) {
+    /* body {
+        background-color: blue;
+    } */
+
+    .navigation {
+        /* flex-direction: column; */
+        height: 80px;
     }
-    .navigation{
-        flex-direction: column;
-        height: 20vh;
-    }
-    .logo{
+
+    .logo {
         display: flex;
         justify-content: center;
         align-items: center;
-         width: 1px 1px ;
+        width: 1px 1px;
         height: 1px 1px;
     }
-    .navicon ul{
+
+    .navicon ul {
         display: flex;
-justify-content: center;
-align-items: center;
+        justify-content: center;
+        align-items: center;
     }
-    .search{
+
+    .search {
         padding-left: 1px;
     }
-    #searchbar{
+
+    #searchbar {
         width: 35vw;
-     }
-     #searchbtn{
+    }
+
+    #searchbtn {
         width: 8vw;
-     }
-     /* this is the cards section */
-     .container{
+    }
+
+
+    /* this is the cards section */
+    .container {
         height: 800px;
         width: 100vw;
-         flex-wrap: wrap;
-     }
-    
-}
-
-@media screen and (max-width:850px){
-   /* body{
-       background-color: black;
-   } */
-      .container1{
-     width: 100vw;
-     flex-wrap: wrap;
-    height: 500px;
-   }
-   .container3{
-
-    width: 100vw;
-    height: 200px;
-    flex-wrap: wrap;
-}
+        flex-wrap: wrap;
+    }
 
 }
 
+@media screen and (min-width:700px) and (max-width : 900px) {
 
-
-@media screen and (max-width:615px){
-    
-    /* body{
-        background-color: brown;
+    /* body {
+        background-color: rgb(177, 78, 78);
     } */
-    .container{
-        height: 1600px;
+
+    .navigation {
+        /* flex-direction: column; */
+        height: 70px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1px 1px;
+        height: 1px 1px;
+    }
+
+    .logoimage {
+        padding-left: 16px;
+        padding-right: 10px;
+
+    }
+
+    .navicon ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search {
+        padding-left: 1px;
+    }
+
+    #searchbar {
+        width: 22vw;
+    }
+
+    #searchbtn {
+        width: 8vw;
+    }
+
+    /* this is the main section  */
+    #imagemain {
+        width: 900px;
+        height: 460px;
+    }
+
+    /* this is the container  */
+    .container {
+        height: 1500px;
         width: 100vw;
         flex-direction: column;
-       
-     }
-     
+    }
+    .card{
+        width: 60vw;
+    }
+    #imgcards {
+        width: 60vw;
+        height: 360px;
+    }
+
+
+
+    .container3 {
+
+        width: 100vw;
+        height: 100px;
+        flex-wrap: wrap;
+    }
+
 }
 
 
-@media screen and (max-width:500px){
-    
-    #searchbar{
-        width: 50vw;
+
+@media screen and (min-width:500px) and (max-width : 700px) {
+
+
+    /* body {
+        background-color: brown;
+    } */
+
+    .navigation {
+        flex-direction: column;
+        height: 150px;
     }
-    #searchbtn{
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1px 1px;
+        height: 1px 1px;
+    }
+
+    .logoimage {
+        padding-left: 16px;
+        padding-right: 10px;
+
+    }
+
+    .navicon ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search {
+        padding-left: 1px;
+    }
+
+    #searchbar {
+        width: 60vw;
+    }
+
+    #searchbtn {
         width: 15vw;
+        height: 26px;
     }
-    ul{
+
+    /* this is the main section  */
+    #imagemain {
+        width: 610px;
+        height: 460px;
+    }
+
+    
+    
+    /* this is the container  */
+    .container {
+        height: 1500px;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .card{
+        width: 60vw;
+    }
+    #imgcards {
+        width: 60vw;
+        height: 360px;
+    }
+
+    /* this is the container 1 */
+    .container1{
+        height: 430px;
+        flex-wrap: wrap;
+    }
+     
+    /* this is the container 3 */
+    .container3{
+        flex-wrap: wrap;
+        height: 120px;
+
+    }
+
+}
+
+
+@media screen and (min-width:250px) and (max-width : 500px) {
+    /* body {
+        background-color: brown;
+    } */
+
+    .navigation {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1px 1px;
+        height: 1px 1px;
+    }
+
+    .logoimage {
+        padding-left: 16px;
+        padding-right: 10px;
+
+    }
+
+    .navicon {
+        width: 91vw;
+        /* border: 2px solid red; */
+
+    }
+
+    .navicon ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    li a {
+        font-size: 22px;
+    }
+
+    .search {
+        padding-left: 1px;
+    }
+
+    #searchbar {
+        width: 60vw;
+    }
+
+    #searchbtn {
+        height: 22px;
+        width: 20vw;
+    }
+
+    ul {
         margin-bottom: 10px;
         margin-right: 18px;
     }
 
-/* this is the container 1 section  */
+    /* this is the main section  */
+    .main {
+        height: 325px;
+    }
 
+    #imagemain {
+        width: 400px;
+        height: 300px;
+    }
+
+    /* this  is the heading section  */
+    .heading {
+        width: 80vw;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    /* this is the container  */
+    
+     .container {
+        height: 1100px;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .card{
+        width: 80vw;
+        height: 260px;
+    }
+    #imgcards {
+        width: 80vw;
+        height: 260px;
+    }
+    /* this is the container 1 */
+    .container1{
+        height: 860px;
+        flex-direction: column;
+    }
+     
+    /* this is the container 3 */
+    .container3{
+        flex-direction: column;
+        height: 150px;
+
+    }
+    .footertext{
+        height: 70px;
+        width: 70vw;
+    }
 }

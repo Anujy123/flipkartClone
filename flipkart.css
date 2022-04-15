@@ -1,222 +1,260 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
     font-size: 27px;
 }
-ul li{
+
+ul li {
     list-style: none;
     padding: 5px 5px;
 }
-li a:hover{
+
+li a:hover {
     color: rgb(97, 209, 209);
 }
-h2{
+
+h2 {
     font-family: 'Roboto', sans-serif;
 }
-h2:hover{
 
-color: #2874f0;
+h2:hover {
+
+    color: #2874f0;
 }
 
-h2{
+h2 {
     cursor: pointer;
 }
 
 
 
-.navigation{
-    background-color:#2874f0 ;
+.navigation {
+    /* border: 2px solid red; */
+    background-color: #2874f0;
     display: flex;
     overflow: hidden;
- height: 10vh;
- justify-content: space-around;
- align-items: center;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
 
 
 }
-ul{
+
+ul {
     display: flex;
     justify-content: flex-start;
 }
-.logo{
-    display: flex;
-justify-content: center;
-align-items: center;
-height: 60px;
 
-}
-.logoimage{
-    width: 146px;
-padding-bottom: 12px;
-padding-top: 12px;
-padding-right: 50px;
-padding-left: 50px
-}
-.search{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-        padding-left: 25px;
+    height: 60px;
+
 }
-#searchbar{
-    
+
+.logoimage {
+    /* border: 2px solid red; */
+
+    width: 146px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 50px;
+    padding-left: 50px
+}
+
+.search {
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 25px;
+}
+
+#searchbar {
+    /* border: 2px solid red; */
+
     width: 30vw;
-    height: 4vh;  
-            border-radius: 6px;
+    height: 20px;
+    border-radius: 6px;
 }
-#searchbtn{
+
+#searchbtn {
+    /* border: 2px solid red; */
+
     width: 4vw;
     height: 4vh;
-    
-        margin-left: 10px;
+
+    margin-left: 10px;
 }
+
 /* this will be my main part */
 
 
-.main{
+.main {
+    overflow: hidden;
     height: 500px;
     width: 100vw;
-    /* border: 2px solid red; */
+    /* border: 2px solid rgb(23, 17, 17); */
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.main1{
+
+.main1 {
     height: 450px;
     width: 1100px;
     /* border: 2px solid red; */
     overflow: hidden;
-     padding-bottom: 35px;
+    padding-bottom: 35px;
 }
+
 /* this is heading section */
-.heading{
-    
-        padding-left: 100px;
-        margin-bottom: 10px;
+.heading {
+    /* border: 2px solid red; */
+    padding-left: 100px;
+    margin-bottom: 10px;
 }
 
 /* this will be the cards section */
-.container{
-   /* border: 2px solid red; */
-   width: 100vw;
-   height: 400px;
-   display: flex;
-
-   justify-content: space-around;
-   align-items: center;
+.container {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 330px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
 
 }
-.card{
+
+.card {
     /* border: 2px solid red; */
     height: 300px;
     width: 300px;
 }
 
 
+
 /* this will be our container1 */
 
-.container1{
-    background-color:  #172337;
+.container1 {
+    background-color: #172337;
     /* border: 2px solid red; */
     width: 100vw;
     height: 250px;
     justify-content: space-around;
     display: flex;
     align-items: center;
+    overflow: hidden;
 
 }
-.box1{
-    cursor:pointer;
+
+.box1 {
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     color: rgb(151, 148, 144);
     width: 200px;
-   height: 200px;
+    height: 200px;
     /* border: 2px solid red;  */
 }
- h4:hover{
-color: wheat;
-/* width: 30vw; */
- text-decoration: underline;
+
+h4:hover {
+    color: wheat;
+    /* width: 30vw; */
+    text-decoration: underline;
 
 }
 
-.boxitem1{
+.boxitem1 {
 
     height: 30px;
     /* border: 2px solid red;  */
-   
+
 }
-.box2{
-    cursor:pointer;
+
+.box2 {
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     color: rgb(151, 148, 144);
     width: 200px;
-   height: 200px;
+    height: 200px;
     /* border: 2px solid red;  */
 }
-.boxitem2{
-    height: 30px;
-    /* border: 2px solid red; */
-}
-.box3{
-    cursor:pointer;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(151, 148, 144);
-    width: 200px;
-   height: 200px;
-    /* border: 2px solid red;  */
-}
-.boxitem3{
+
+.boxitem2 {
     height: 30px;
     /* border: 2px solid red; */
 }
-.box4{
-    cursor:pointer;
+
+.box3 {
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
     color: rgb(151, 148, 144);
     width: 200px;
-   height: 200px;
+    height: 200px;
     /* border: 2px solid red;  */
 }
-.boxitem4{
+
+.boxitem3 {
+    height: 30px;
+    /* border: 2px solid red; */
+}
+
+.box4 {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(151, 148, 144);
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid red;  */
+}
+
+.boxitem4 {
     height: 30px;
     /* border: 2px solid red; */
 }
 
 
 /* this is my footer section  */
-.container3{
+.container3 {
     /* border: 2px solid red; */
-    background-color:#172337;
+    background-color: #172337;
     height: 100px;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
-.footerlogo{
+
+.footerlogo {
     cursor: pointer;
     /* border: 2px solid red; */
-height: 70px;
-width:250px;
+    height: 70px;
+    width: 250px;
 }
-.footertext{
+
+.footertext {
     color: rgb(151, 148, 144);
     /* border: 2px solid red; */
     height: 30px;
-    width: 350px;
+    width: 450px;
 }
-.footertext:hover{
-   
+
+.footertext:hover {
+
     cursor: pointer;
-    color:whitesmoke ;
+    color: whitesmoke;
 
 }
