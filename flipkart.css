@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.icon{
+    /* border: 2px solid red; */
+    display: none;
+
+}
 
 li a {
     text-decoration: none;
@@ -11,6 +16,8 @@ li a {
 }
 
 ul li {
+    /* border: 2px solid red; */
+
     list-style: none;
     padding: 5px 5px;
 }
@@ -52,6 +59,8 @@ ul {
 }
 
 .logo {
+    /* border: 2px solid red; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +69,6 @@ ul {
 }
 
 .logoimage {
-    /* border: 2px solid red; */
 
     width: 146px;
     padding-bottom: 12px;
@@ -94,6 +102,10 @@ ul {
     height: 20px;
 
     margin-left: 10px;
+}
+.navicon{
+    /* border: 2px solid red; */
+
 }
 
 /* this will be my main part */

@@ -207,17 +207,29 @@
     /* body {
         background-color: brown;
     } */
-
+    .icon{
+        /* border: 2px solid red; */
+        display: block;
+    
+    }
     .navigation {
         flex-direction: column;
-        height: 150px;
+        height: fit-content;
+    }
+    .navicon{
+    display:none ;
+    }
+
+    .navicon.show{
+        display: block;
+        
     }
 
     .logo {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        width: 1px 1px;
+        width: 90vw;
         height: 1px 1px;
     }
 
@@ -235,6 +247,7 @@
 
     .navicon ul {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
 
@@ -250,11 +263,14 @@
 
     #searchbar {
         width: 60vw;
+        margin-bottom: 5px;
     }
 
     #searchbtn {
         height: 22px;
         width: 20vw;
+        margin-bottom: 5px;
+
     }
 
     ul {
